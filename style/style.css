@@ -56,11 +56,15 @@ body {
     margin-top: 180px;
     font-size: 40px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .jumbotron .display-4 span {
     font-weight: bold;
+}
+
+.jumbotron .lead {
+    color: white;
 }
 
 /* Panel Info */
@@ -121,8 +125,16 @@ body {
     margin-top: 30px;
 }
 
+.working-space {
+    margin-bottom: 150px;
+}
+
 .working-space .space {
     margin-top: 150px;
+}
+
+.jumbotron-2 {
+    background-image: url(../assets-img/img/jumbotron-bg.jpg);
 }
 
 /* DESKTOP VERSION */
