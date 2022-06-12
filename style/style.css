@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    height: 6000px;
+    height: 7000px;
 }
 
 /* Navbar */
@@ -137,6 +137,20 @@ body {
     background-image: url(../assets-img/img/jumbotron-bg.jpg);
 }
 
+.footer {
+    background-color: rgb(10, 9, 9);
+    color: white;
+    margin-top: -32px;
+}
+
+.footer .col {
+    padding: 50px 70px 100px;
+}
+
+.footer .container a {
+    color: white;
+    font-size: 2em;
+}
 /* DESKTOP VERSION */
 
 @media (min-width: 992px) {  
