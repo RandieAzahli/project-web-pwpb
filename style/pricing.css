@@ -9,3 +9,116 @@ body {
 .container p.text-style {
     text-align: justify;
 }
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+.container .timeline {
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li {
+    box-sizing: border-box;
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+
+}
+
+.container .content {
+    padding-bottom: 20px;
+}
+
+.timeline ul li:nth-child(odd)::before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background-color: crimson;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.2);
+}
+
+.timeline ul li:nth-child(even)::before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background-color: crimson;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.2);
+}
+
+.timeline ul li h3 {
+    margin-top: -8px;
+    padding: 0;
+    color: crimson;
+    font-weight: 600;
+}
+
+.timeline ul li p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.timeline ul li .time h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.timeline ul li:nth-child(odd) .time {
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0 -20px;
+    padding: 10px 16px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.2);
+}
+
+.timeline ul li:nth-child(even) .time {
+    position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0 -20px;
+    padding: 10px 16px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.2);
+}

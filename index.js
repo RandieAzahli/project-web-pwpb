@@ -1,5 +1,6 @@
 // Read more or less more
 
+// eslint-disable-next-line no-unused-vars
 function readMoreLess() {
   const dots = document.getElementById("dots");
   const more = document.getElementById("more");
