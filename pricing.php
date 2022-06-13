@@ -7,6 +7,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/pricing.css">
 </head>
 
 <body>
@@ -15,59 +16,27 @@
             aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/project-web-pwpb/">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                <li class="breadcrumb-item active" aria-current="page">Pricing</li>
             </ol>
         </nav>
     </div>
     <div class="container">
-        <div class="mt-4 p-5 bg-light rounded">
-            <h1>Get Pricing with NESCAFÉ</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis itaque, accusantium fugit dignissimos
-                doloribus officia aspernatur cupiditate iste beatae quidem nostrum. Fuga, provident quos nihil quo
-                eligendi eaque omnis officia.</p>
-        </div>
-    </div>
-    <div class="row justify-content-around mt-5">
-        <div class="col-5">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="width: 700px;">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+        <div class="row justify-content-between">
+            <div class="col-5">
+                <div class="p-3 mt-3">
+                    <h1 class="display-4 fw-normal">Get Pricing with NESCAFÉ</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, vel.</p>
+                    <button class="btn btn-primary mt-3 p-2">Pricing Now</button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="assets-img/img/wp4144075-nestle-wallpapers.jpg" class="d-block w-100" alt="..."
-                            width="500" height="400">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="assets-img/img/wp8578259-nescafe-wallpapers.jpg" class="d-block w-100" alt="..."
-                            width="500" height="400">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="assets-img/img/wp8578254-nescafe-wallpapers.jpg" class="d-block w-100" alt="..."
-                            width="500" height="400">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            </div>
+            <div class="col-5">
+                <img src="assets-img/img/20943426.jpg" alt="" width="550" height="450">
             </div>
         </div>
-        <div class="col-5"></div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-        </script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
