@@ -25,12 +25,20 @@
             <div class="col-5">
                 <div class="p-3 mt-3">
                     <h1 class="display-4 fw-normal">Get Pricing with NESCAFÉ</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, vel.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, vel
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, odit veritatis
+                        <span id="dots">... </span><span id="more">Officia similique fugit quae nihil recusandae eos
+                            aspernatur dolor
+                            debitis quibusdam fuga.
+                            Veniam, ratione quam tempora vitae recusandae, quia asperiores sint aliquid maxime delectus
+                            nobis, debitis beatae totam nam consequatur necessitatibus voluptatum magnam accusamus esse
+                            error? Rem, tempore veritatis!</span>
+                    </p>
                     <button class="btn btn-primary mt-3 p-2">Pricing Now</button>
                 </div>
             </div>
-            <div class="col-5">
-                <img src="assets-img/img/20943426.jpg" alt="" width="550" height="450">
+            <div class="col-6">
+                <img src="assets-img/img/19197473.jpg" alt="" width="700" height="450">
             </div>
         </div>
     </div>
