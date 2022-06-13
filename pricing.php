@@ -25,7 +25,7 @@
             <div class="col-5">
                 <div class="p-3 mt-3">
                     <h1 class="display-4 fw-normal">Get Pricing with NESCAFÉ</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, vel
+                    <p class="text-style">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, vel
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, odit veritatis
                         <span id="dots">... </span><span id="more">Officia similique fugit quae nihil recusandae eos
                             aspernatur dolor
@@ -34,7 +34,7 @@
                             nobis, debitis beatae totam nam consequatur necessitatibus voluptatum magnam accusamus esse
                             error? Rem, tempore veritatis!</span>
                     </p>
-                    <button class="btn btn-primary mt-3 p-2">Pricing Now</button>
+                    <button class="btn btn-primary mt-3 p-2" id="read" onclick="readMoreLess()">Read more</button>
                 </div>
             </div>
             <div class="col-6">
@@ -45,6 +45,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
+    <script src="index.js"></script>
 </body>
 
 </html>
